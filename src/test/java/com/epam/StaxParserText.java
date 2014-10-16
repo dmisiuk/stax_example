@@ -33,7 +33,7 @@ public class StaxParserText {
         User dzmitryUser = new User();
         dzmitryUser.setId(1);
         dzmitryUser.setName("Dzmitry");
-        users.contains(dzmitryUser);
+        Assert.assertTrue(users.contains(dzmitryUser));
     }
 
 }
